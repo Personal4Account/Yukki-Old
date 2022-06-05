@@ -229,11 +229,11 @@ async def initiate_bot():
     console.print(f"\n[red]Stopping Bot")
 
 
-home_text_pm = f"""Hello ,
-My name is {BOT_NAME}.
-A Telegram Music+Video Streaming bot with some useful features.
+home_text_pm = f"""Hello 👋 My name is **{BOT_NAME}**
 
-All commands can be used with: / """
+I'm most complete voice chat music player to play unstoppable music in your groups voice chat.
+
+Audio and Video both are supported, use buttons given below for more !!"""
 
 
 @app.on_message(filters.command("help") & filters.private)
